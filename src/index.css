@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montez&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Niconne&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth focus:scroll-auto bg-whiteSmoke;
+}
+
+.card {
+  @apply bg-gradient-to-br
+from-vintageWhite
+to-lightGray
+  bg-opacity-50
+  w-screen
+  1180px:w-fit
+  inline-block
+  border-8
+border-white
+  rounded-sm
+  overflow-hidden
+  shadow-md
+  mb-2
+  mx-2
+  px-4
+  1180px:mb-4;
+}
+
+.card-title {
+  @apply font-bold 
+  font-specialElite
+    text-lg 
+    px-3 
+    pb-3;
+}
+
+.card img {
+  @apply mx-3 mt-3 1180px:max-w-xs;
+}
+
+.badge {
+  @apply bg-gradient-to-br
+  from-secondary
+  to-pink-600 
+    text-white 
+    rounded-full 
+    text-sm 
+    ml-7 
+    px-3 
+    py-2 
+    mt-1 
+    shadow-inner
+    absolute
+    hover:animate-pulse;
+}
+
+.btn {
+  @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
+}
+
+.navbar {
+  @apply bg-whiteSmoke py-3 text-xl shadow-xl;
+}
+
+.navbar-item {
+  @apply text-sm
+    md:text-lg
+    m-2
+    md:m-4
+    inline-block
+    transition
+    ease-out
+    duration-500
+    border-b
+    border-b-transparent
+    hover:text-secondary
+    hover:border-b
+    hover:border-b-secondary
+    hover:-translate-y-0.5;
+}
+
+section {
+  @apply
+  first:mt-6 
+  /* mb-16  */
+  pb-16
+  ;
+}
+
+.section-title {
+  @apply text-3xl
+         text-primary
+           font-bold 
+           w-fit
+           block 
+           border-b-2 
+         border-primary 
+           pr-12
+           mb-10
+           /* mt-4 */
+           first:pt-8
+           ;
+}
+
+.contact-item {
+  @apply text-sm
+    md:text-lg 
+    text-trietary-dark
+    inline-block
+    mr-2
+    mb-2
+    md:mr-6
+    transition
+    ease-out
+    duration-500
+    border-b
+    border-b-transparent
+    hover:text-secondary
+    hover:border-b
+    hover:border-b-secondary
+    hover:cursor-pointer
+    hover:-translate-y-0.5;
+}
+
+.contact-item svg {
+  @apply inline-block w-6 h-6 pb-1 pr-1 motion-safe:group-hover:animate-wiggle;
+}
+
+.contact-item a {
+  @apply inline-block;
+}
+
+.container {
+  @apply w-full max-w-7xl my-0 mx-auto py-0 px-10 box-border;
+}
+
+p {
+  @apply indent-7 text-justify;
+}
+
+.education-item {
+  @apply
+  pt-0
+  pb-6
+  first:pt-0
+  ;
+}
+
+.education-item .item-title {
+  @apply 
+  text-lg 
+  font-bold 
+  inline-block;
+}
+
+.education-item .item-info {
+  @apply text-trietary-dark text-sm;
+}
+
+.education-item .item-dates {
+  @apply italic;
+}
+
+.custom-button {
+  @apply border 
+    border-trietary-dark 
+    rounded-md 
+    px-4 
+    py-2
+    transition
+    ease-out
+    duration-500
+
+    hover:bg-gradient-to-br
+  hover:from-secondary
+  hover:to-pink-600 
+
+    hover:text-white
+    hover:border-white
+    hover:bg-secondary
+    hover:shadow-md
+    cursor-pointer;
+}
+
+.achievement-short {
+  @apply 
+    inline-block
+    text-center
+    shadow-md 
+    p-4
+    mb-4
+    mx-4
+    mt-0 
+    border 
+    border-trietary-light 
+    rounded-lg
+    ;
+}
+
+.achievement-short .achievement-number {
+  @apply 
+  pb-3
+  text-4xl 
+  m-auto
+  text-secondary 
+  font-calligraphy 
+  ;
+}
+
+.achievement-short .achievement-description {
+  @apply capitalize;
+}
+
+.section-item {
+  @apply inline-block
+  text-center
+  text-trietary-dark
+  shadow-md
+  p-4
+  mb-4
+  mx-4
+  mt-0 
+  border 
+  border-trietary-light 
+  rounded-lg
+  transition
+  ease-out
+  duration-500
+  hover:bg-gradient-to-br
+  hover:from-secondary
+  hover:to-pink-600 
+  hover:text-white
+  hover:border-white
+  hover:bg-secondary
+  hover:shadow-md
+  cursor-pointer;
+}
+
+.section-item {
+  min-width: 12em;
+}
+
+.section-item-icon {
+  @apply pb-3
+  text-4xl
+  w-10
+  m-auto
+  group-hover:animate-wiggle
+  ;
+}
+
+.section-item-text {
+  @apply 
+  capitalize
+  font-firaSans
+  ;
+}
+
+table {
+  @apply
+  w-full
+  border-separate
+  /* max-w-md */
+  rounded-md
+  border
+  border-trietary-light
+  ;
+}
+
+thead {
+  @apply
+  bg-secondary
+  bg-opacity-20
+  z-10
+  shadow-md
+  ;
+}
+
+th, td {
+  @apply
+  py-4
+  px-4
+  text-start
+}
+
+
+tr:nth-child(even) {
+  @apply
+  bg-trietary-light
+  bg-opacity-40
+  ;
+}
+
+tr{
+  @apply
+  border-b
+  border-b-trietary-light
+  overflow-hidden
+  ;
+}
+
+/* .design-row:nth-child(even) {
+  @apply
+  bg-secondary
+  bg-opacity-20
+  ;
+} */
+
+.portrait-design-row {
+  @apply
+  grid 
+  grid-cols-12
+  gap-2
+  items-end
+  py-4
+  overflow-hidden
+  ;
+}
+
+.portrait-design-row img {
+  @apply 
+  rounded-md
+  transition
+  duration-1000
+  ease-out
+  ;
+}
+
+.portrait-design-row .design-description:nth-child(even) {
+  @apply lg:hidden;
+}
