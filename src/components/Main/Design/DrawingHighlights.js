@@ -1,8 +1,8 @@
-import React, { Fragment } from "react";
+import React from "react";
 import parse from 'html-react-parser';
 import freelancingPortraits from "../../../content/ContentDesigns";
 
-const OriginalAndDrawing = (props) => {
+const DrawingHighlights = (props) => {
   return (
     <React.Fragment>
       {freelancingPortraits
@@ -31,4 +31,4 @@ const OriginalAndDrawing = (props) => {
   );
 };
 
-export default OriginalAndDrawing;
+export default DrawingHighlights;

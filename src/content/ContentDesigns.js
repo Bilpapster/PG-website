@@ -42,21 +42,21 @@ const freelancingPortraits = [
         id:'ioannis_podiotis',
         original_image: ioannis_podiotis_original,
         portrait_image: ioannis_podiotis_portrait,
-        description: "<i>Heroes are not afraid of hatchets. Mr Giannis is neither.</i><br/></br><b>In portrait:</b> Mr Giannis, a hero who saved his colleagues' lives stopping with bare hands a hatchet attack in their workplace",
+        description: "<i>Heroes are not afraid of hatchets. Mr Giannis is neither.</i><br/><br/></br><b>In portrait:</b> Mr Giannis, a hero who saved his colleagues' lives stopping with bare hands a hatchet attack in their workplace",
         highlight:true
     },
     {
         id:'markos_koumaris_locomondo',
         original_image: markos_koumaris_locomondo_original,
         portrait_image: markos_koumaris_locomondo_portrait,
-        description: "<i>\"There are hands that have learnt to offer. There are hands that always ask. There are hands that caress you lovingly at night. [...] Maybe our hands are hands like these [...]\.</i><br/></br><b>In portrait:</b> Markos Koumaris, Locomondo's frontman",
+        description: "<i>\"There are hands that have learnt to offer. There are hands that always ask. There are hands that caress you lovingly at night. [...] Maybe our hands are hands like these [...]\.</i><br/><br/></br><b>In portrait:</b> Markos Koumaris, Locomondo's frontman",
         highlight:true
     },
     {
         id:'sonia_cekini',
         original_image: sonia_cekini_original,
         portrait_image: sonia_cekini_portrait,
-        description: "<i>Winning <s>the race</s> life. Again.</i><br/></br><b>In portrait:</b> Sonia Cekini, a marathon champion who outpaced breast cancer. Twice.",
+        description: "<i>Winning <s>the race</s> life. Again.</i><br/><br/></br><b>In portrait:</b> Sonia Cekini, a marathon champion who outpaced breast cancer. Twice.",
         highlight:true
     },
     {
