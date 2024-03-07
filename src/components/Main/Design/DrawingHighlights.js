@@ -6,7 +6,7 @@ const DrawingHighlights = (props) => {
   return (
     <React.Fragment>
       {freelancingPortraits
-        .filter((portrait) => portrait.highlight)
+        .filter((portrait) => true)
         .map((portrait) => {
           return (
             <div className="border-b border-b-trietary-light border-dashed lg:border-b-0 text-center">

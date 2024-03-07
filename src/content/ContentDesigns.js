@@ -14,6 +14,7 @@ import maria_nestora_original from '../assets/designs/freelancing/maria nestora 
 import maria_nestora_portrait from '../assets/designs/freelancing/maria nestora portrait.jpg';
 import markos_koumaris_locomondo_original from '../assets/designs/freelancing/markos koumaris locomondo original.jpg';
 import markos_koumaris_locomondo_portrait from '../assets/designs/freelancing/markos koumaris locomondo portrait.jpg';
+import mrs_perri_original from '../assets/designs/freelancing/mrs perri original.jpeg';
 import mrs_perri_portrait from '../assets/designs/freelancing/mrs perri portrait.jpg';
 import sakis_papadopoulos_original from '../assets/designs/freelancing/sakis papadopoulos original.jpg';
 import sakis_papadopoulos_portrait from '../assets/designs/freelancing/sakis papadopoulos portrait.jpg';
@@ -103,7 +104,7 @@ const freelancingPortraits = [
     },
     {
         id:'mrs_perri',
-        original_image: null, // mrs_perri_original,
+        original_image: mrs_perri_original,
         portrait_image: mrs_perri_portrait,
         description: "Mrs Perri",
         highlight:false
