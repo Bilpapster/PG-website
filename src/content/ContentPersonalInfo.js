@@ -28,7 +28,7 @@ export const contactDetails = [
   {
     id: "linkedIn",
     name: "Maria Kavour",
-    link: "https://www.linkedin.com/in/maria-kavour-abb467278/",
+    link: "https://www.linkedin.com/in/maria-kavouridou/",
     svg: linkedinSVG,
   },
   {
@@ -39,8 +39,8 @@ export const contactDetails = [
   },
   {
     id: "instagram",
-    name: "maria_kavour",
-    link: "https://www.instagram.com/maria_kavour/",
+    name: "its.pg_official",
+    link: "https://www.instagram.com/its.pg_official/",
     svg: instagramSVG,
   },
 ];
