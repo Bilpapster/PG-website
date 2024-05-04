@@ -1,5 +1,6 @@
 import React from "react";
-import {Routes, Route, useNavigate} from 'react-router-dom';
+// import {Routes, Route, useNavigate} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route, Routes, useNavigate} from 'react-router-dom';
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Main from "./components/Main/Main";
