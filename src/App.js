@@ -23,6 +23,14 @@ function App() {
         <Footer id="footer" />
       </div>
 
+      {/* code from online tutorial https://www.youtube.com/watch?v=I2UBjN5ER4s&t=195s */}
+      {/* <Router>
+        <Navbar>the navbar is a custom component</Navbar>
+        <Switch>
+          <Route path='/' exact />
+        </Switch>
+      </Router> */}
+
       <Routes>
           <Route path="./pages/Athletics" element={<Athletics />} />
           {/* <Route path="/" element={<Home />} /> */}
