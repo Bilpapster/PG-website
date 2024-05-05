@@ -14,6 +14,8 @@ const Sections = (props) => {
             text={sectionItem.name}
             link={sectionItem.link}
             svg={sectionItem.svg}
+            image={sectionItem.image}
+            description={sectionItem.description}
           />
         );
       })}

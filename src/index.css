@@ -230,31 +230,46 @@ p {
 
 .section-item {
   @apply inline-block
-  text-center
+  /* text-center */
+  text-start
   text-trietary-dark
-  shadow-md
-  p-4
-  mb-4
-  mx-4
-  mt-0 
-  border 
-  border-trietary-light 
+  /* p-2 */
+  mb-10
+  mx-10
+  mt-0
+  max-w-72
+  /* shadow-md */
+  /* border  */
+  /* border-trietary-light  */
   rounded-lg
   transition
   ease-out
   duration-500
-  hover:bg-gradient-to-br
+  /* hover:bg-gradient-to-br
   hover:from-secondary
   hover:to-pink-600 
   hover:text-white
   hover:border-white
-  hover:bg-secondary
-  hover:shadow-md
+  hover:bg-secondary */
+  /* hover:shadow-md */
   cursor-pointer;
 }
 
 .section-item {
   min-width: 12em;
+}
+
+.section-item img {
+  /* filter: grayscale(70%); */
+  filter: none;
+}
+
+.section-item img {
+  @apply transition ease-out duration-500;
+}
+
+.section-item img:hover {
+  filter: none;
 }
 
 .section-item-icon {
@@ -270,6 +285,19 @@ p {
   @apply 
   capitalize
   font-firaSans
+  text-primary
+  italic
+  text-lg
+  /* pl-4 */
+  ;
+}
+
+.section-item-description {
+  @apply
+  /* capitalize */
+  font-firaSans
+  text-trietary-dark
+  pt-1
   ;
 }
 

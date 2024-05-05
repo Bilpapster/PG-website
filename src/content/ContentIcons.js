@@ -234,7 +234,7 @@ export const fontAwesomeSVG = (
 
 export const graduateCapSVG = (
   <svg
-    className={tailwindClassesSections}
+    className={tailwindClassesButtonIcons}
     height="1em"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 640 512"
@@ -248,7 +248,7 @@ export const graduateCapSVG = (
 
 export const worldSVG = (
   <svg
-    className={tailwindClassesSections}
+    className={tailwindClassesButtonIcons}
     height="1em"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 512 512"
@@ -262,7 +262,7 @@ export const worldSVG = (
 
 export const colorPaletteSVG = (
   <svg
-    className={tailwindClassesSections}
+    className={tailwindClassesButtonIcons}
     height="1em"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 512 512"
@@ -276,7 +276,7 @@ export const colorPaletteSVG = (
 
 export const volunteeringSVG = (
   <svg
-    className={tailwindClassesSections}
+    className={tailwindClassesButtonIcons}
     height="1em"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 576 512"
@@ -291,7 +291,7 @@ export const volunteeringSVG = (
 
 export const personRunningSVG = (
   <svg
-    className={tailwindClassesSections}
+    className={tailwindClassesButtonIcons}
     height="1em"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 448 512"
