@@ -374,3 +374,26 @@ tr{
 .portrait-design-row .design-description:nth-child(even) {
   @apply lg:hidden;
 }
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  @apply border border-b-trietary-light;
+
+  border-bottom: 1px solid;
+}
+
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}
