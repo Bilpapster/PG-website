@@ -20,7 +20,7 @@ const SectionItem = (props) => {
         <div className="section-item-description">{props.description}</div>
         <div className="text-end py-4">
           <Button
-            aClass="not-italic w-fit"
+            aClass="not-italic"
             link="https://www.github.com/bilpapster"
             target="_blank"
             buttonText={`See ${props.text}`}

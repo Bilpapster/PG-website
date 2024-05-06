@@ -235,9 +235,11 @@ p {
   text-trietary-dark
   /* p-2 */
   mb-10
-  mx-10
+  mx-0
+  md:mx-10
   mt-0
-  max-w-72
+  md:max-w-72
+  max-w-full
   /* shadow-md */
   /* border  */
   /* border-trietary-light  */
@@ -255,9 +257,9 @@ p {
   cursor-pointer;
 }
 
-.section-item {
+/* .section-item {
   min-width: 12em;
-}
+} */
 
 .section-item img {
   /* filter: grayscale(70%); */
