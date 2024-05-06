@@ -5,17 +5,13 @@ import {
   githubSVG,
   copyrightSVG,
   heartSVG,
-  angleDownSVG,
   facebookSVG,
   linkedinSVG,
   emailSVG,
   instagramSVG,
 } from "../../content/ContentIcons";
 import Button from "../UI/Button";
-import {
-  personalInfo,
-  contactDetails,
-} from "../../content/ContentPersonalInfo";
+import { contactDetails } from "../../content/ContentPersonalInfo";
 
 const contactIcons = [emailSVG, linkedinSVG, facebookSVG, instagramSVG];
 
