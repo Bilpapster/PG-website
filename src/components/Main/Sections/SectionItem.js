@@ -9,9 +9,9 @@ const SectionItem = (props) => {
       <Link className="w-full" to={props.link}>
         {/* <div className="section-item-icon">{props.svg}</div> */}
 
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center overflow-hidden">
           <img
-            class="mb-2 w-full overflow-hidden rounded-xl rounded-b-none object-cover"
+            class="mb-2 rounded-xl rounded-b-none"
             src={props.image}
             alt=""
           />

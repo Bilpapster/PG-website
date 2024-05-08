@@ -75,27 +75,6 @@ border-white
   @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
 }
 
-/* .navbar {
-  @apply bg-whiteSmoke py-3 text-xl shadow-xl;
-}
-
-.navbar-item {
-  @apply text-sm
-    md:text-lg
-    m-2
-    md:m-4
-    inline-block
-    transition
-    ease-out
-    duration-500
-    border-b
-    border-b-transparent
-    hover:text-secondary-normal
-    hover:border-b
-    hover:border-b-secondary-normal
-    hover:-translate-y-0.5;
-} */
-
 section {
   @apply
   first:mt-6 
@@ -261,19 +240,9 @@ p {
   min-width: 12em;
 } */
 
-.section-item img {
-  /* filter: grayscale(70%); */
-  filter: none;
-}
-
-.section-item img {
-  @apply transition ease-out duration-500;
-}
-
-.section-item img:hover {
-  filter: none;
-}
-
+/* .section-item img {
+  @apply transition ease-in-out duration-1000 hover:scale-[110%];
+} */
 .section-item-icon {
   @apply pb-3
   text-4xl
