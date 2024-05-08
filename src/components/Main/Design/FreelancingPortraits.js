@@ -14,10 +14,16 @@ const FreelancingPortraits = (props) => {
             return (
               <div className="flex pb-2 pr-2 items-center">
                 <div className="max-w-xs w-fit">
-                  <img src={portrait.original_image} />
+                  <img
+                    className="rounded-md rounded-r-none"
+                    src={portrait.original_image}
+                  />
                 </div>
                 <div className="max-w-xs w-fit">
-                  <img src={portrait.portrait_image} />
+                  <img
+                    className="rounded-md rounded-l-none"
+                    src={portrait.portrait_image}
+                  />
                 </div>
               </div>
             );
