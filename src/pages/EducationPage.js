@@ -1,17 +1,17 @@
-import React from 'react';
+import React from "react";
 import Header from "../components/Header/Header";
+import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
-import Education from '../components/Main/Education/Education';
+import Education from "../components/Main/Education/Education";
 
 const EducationPage = (props) => {
-    return (
-        <div>
-            <Header />
-            <Education />
-            <Footer />
-        </div>
-
-    );
+  return (
+    <div>
+      <Navbar id="header" />
+      <Education />
+      <Footer />
+    </div>
+  );
 };
 
 export default EducationPage;

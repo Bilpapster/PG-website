@@ -75,7 +75,7 @@ border-white
   @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
 }
 
-.navbar {
+/* .navbar {
   @apply bg-whiteSmoke py-3 text-xl shadow-xl;
 }
 
@@ -94,7 +94,7 @@ border-white
     hover:border-b
     hover:border-b-secondary-normal
     hover:-translate-y-0.5;
-}
+} */
 
 section {
   @apply
@@ -399,3 +399,4 @@ tr{
 .separator:not(:empty)::after {
   margin-left: .25em;
 }
+
