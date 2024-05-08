@@ -5,7 +5,10 @@ module.exports = {
     extend: {
       colors: {
         primary: "#000000",
-        secondary: "#377F7F",
+        secondary: {
+          normal: "#377F7F",
+          light: "#c9dbdb",
+        },
         trietary: {
           light: "#BBBBBB",
           dark: "#6C6C6C",

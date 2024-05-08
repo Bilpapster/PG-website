@@ -82,7 +82,7 @@ const AchievementsDisplay = (props) => {
                     <td className="text-center">
                       {race.link ? (
                         <a
-                          className="cursor-pointer transition ease-out hover:text-secondary "
+                          className="cursor-pointer transition ease-out hover:text-secondary-normal "
                           href={race.link}
                           target="_blank"
                         >

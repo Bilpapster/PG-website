@@ -57,7 +57,7 @@ border-white
 
 .badge {
   @apply bg-gradient-to-br
-  from-secondary
+  from-secondary-normal
   to-pink-600 
     text-white 
     rounded-full 
@@ -90,9 +90,9 @@ border-white
     duration-500
     border-b
     border-b-transparent
-    hover:text-secondary
+    hover:text-secondary-normal
     hover:border-b
-    hover:border-b-secondary
+    hover:border-b-secondary-normal
     hover:-translate-y-0.5;
 }
 
@@ -132,9 +132,9 @@ section {
     duration-500
     border-b
     border-b-transparent
-    hover:text-secondary
+    hover:text-secondary-normal
     hover:border-b
-    hover:border-b-secondary
+    hover:border-b-secondary-normal
     hover:cursor-pointer
     hover:-translate-y-0.5;
 }
@@ -189,12 +189,12 @@ p {
     duration-500
 
     hover:bg-gradient-to-br
-  hover:from-secondary
+  hover:from-secondary-normal
   hover:to-pink-600 
 
     hover:text-white
     hover:border-white
-    hover:bg-secondary
+    hover:bg-secondary-normal
     hover:shadow-md
     cursor-pointer;
 }
@@ -219,7 +219,7 @@ p {
   pb-3
   text-4xl 
   m-auto
-  text-secondary 
+  text-secondary-normal 
   font-calligraphy 
   ;
 }
@@ -248,11 +248,11 @@ p {
   ease-out
   duration-500
   /* hover:bg-gradient-to-br
-  hover:from-secondary
+  hover:from-secondary-normal
   hover:to-pink-600 
   hover:text-white
   hover:border-white
-  hover:bg-secondary */
+  hover:bg-secondary-normal */
   /* hover:shadow-md */
   cursor-pointer;
 }
@@ -316,7 +316,7 @@ table {
 
 thead {
   @apply
-  bg-secondary
+  bg-secondary-normal
   bg-opacity-20
   z-10
   shadow-md
@@ -348,7 +348,7 @@ tr{
 
 /* .design-row:nth-child(even) {
   @apply
-  bg-secondary
+  bg-secondary-normal
   bg-opacity-20
   ;
 } */

@@ -5,7 +5,7 @@ import content from "../../../content/ContentAbout";
 
 const About = (props) => {
   return (
-    <section className="bg-secondary bg-opacity-20" id="About">
+    <section className="bg-secondary-normal bg-opacity-20" id="About">
       <div className="container">
         <SectionTitle>About</SectionTitle>
         {content.map((paragraph, index) => {

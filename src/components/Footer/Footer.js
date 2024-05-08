@@ -30,7 +30,7 @@ const instagramLink = contactDetails
 
 const Footer = (props) => {
   const additionalClassesForFooterIcons =
-    "fa-2xl hover:text-secondary hover:cursor-pointer transition ease-out duration-500 motion-safe:hover:animate-wiggle";
+    "fa-2xl hover:text-secondary-normal hover:cursor-pointer transition ease-out duration-500 motion-safe:hover:animate-wiggle";
   const contactIcons = [
     {
       icon: (
@@ -65,7 +65,7 @@ const Footer = (props) => {
   ];
 
   return (
-    <footer className="bg-secondary bg-opacity-20 group py-6 mt-4 text-trietary-dark italic text-sm font-firaSans">
+    <footer className="bg-gradient-to-t from-secondary-light from-60% bg-opacity-20 group pb-6 pt-10 text-trietary-dark italic text-sm font-firaSans">
       <div className="container">
         <div className="grid grid-cols-12 gap-0">
           <div className="separator col-span-12">Stay in touch with Maria</div>
