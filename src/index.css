@@ -325,8 +325,8 @@ tr{
 .portrait-design-row {
   @apply
   grid 
-  grid-cols-12
-  gap-2
+  grid-cols-8
+  gap-0.5
   items-end
   py-4
   overflow-hidden
@@ -339,6 +339,17 @@ tr{
   transition
   duration-1000
   ease-out
+  ;
+}
+
+.portrait-design-container {
+  @apply 
+  overflow-hidden 
+  col-span-4 
+  lg:col-span-3 
+  w-fit 
+  max-w-xs 
+  justify-self-center
   ;
 }
 
