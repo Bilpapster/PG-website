@@ -1,3 +1,4 @@
+// portraits and original photos
 import an_orange_cat_original from "../assets/designs/freelancing/an orange cat original.jpg";
 import an_orange_cat_portrait from "../assets/designs/freelancing/an orange cat portrait.jpg";
 import giannis_chatzipavlidis_original from "../assets/designs/freelancing/giannis chatzipavlidis original.jpg";
@@ -37,8 +38,13 @@ import tolis_fasois_portrait from "../assets/designs/freelancing/tolis fasois po
 import vasilis_original from "../assets/designs/freelancing/vasilis original.jpg";
 import vasilis_portrait from "../assets/designs/freelancing/vasilis portrait.jpg";
 
+// graphic designs
+import dypa_2023 from "../assets/designs/graphics/dypa_2023.png";
+import macedonia_airport_2023 from "../assets/designs/graphics/macedonia_airport_2023.png";
+import music_from_pontus_2024 from "../assets/designs/graphics/music_from_pontus_2024.png";
+
 export const freelancingText =
-  "The following gallery presents several freelancing portraits Maria has created over the past years. Utilizing her artistic skills, Maria created commissioned portraits for clients, capturing their unique personalities and expressions. She, also, established and maintained client relationships, ensuring satisfaction with final artworks and meeting deadlines.";
+  "Over the past years, Maria has created a lot of freelancing portraits. Utilizing her artistic skills, she hand-crafted commissioned portraits for clients, capturing their unique personalities and expressions. She, also, established and maintained client relationships, ensuring satisfaction with final artworks and meeting deadlines.";
 
 const freelancingPortraits = [
   {
@@ -183,6 +189,36 @@ const freelancingPortraits = [
     portrait_image: vasilis_portrait,
     description: "Ugly - uglier - the ugliest. Not the portrait.",
     highlight: false,
+  },
+];
+
+export const graphicDesignsContent = [
+  {
+    id: "music_from_pontus_2024",
+    image: music_from_pontus_2024,
+    year: "2024",
+    receivers: "50+",
+    order: "1",
+    description:
+      "Developed custom greeting card designs tailored to the specific branding and messaging requirements of each organization.",
+  },
+  {
+    id: "macedonia_airport_2023",
+    image: macedonia_airport_2023,
+    year: "2023",
+    receivers: "200+",
+    order: "2",
+    description:
+      "Developed custom greeting card designs tailored to the specific branding and messaging requirements of each organization.",
+  },
+  {
+    id: "dypa_2023",
+    image: dypa_2023,
+    year: "2023",
+    receivers: "100+",
+    order: "3",
+    description:
+      'Commissioned to design the 2023 greeting cards for Macedonia Airport 2nd Customs and the public employment service "ΔΥΠΑ".',
   },
 ];
 
