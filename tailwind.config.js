@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
+
+const usedColorsForBorders = ["secondary-normal", "trietary-light", "gold"];
+
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  safelist: usedColorsForBorders.map((color) => `border-${color}`),
   theme: {
     extend: {
       colors: {

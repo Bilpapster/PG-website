@@ -14,16 +14,18 @@ const AchievementsDisplay = (props) => {
     <React.Fragment>
       <section id="athletic_highlights" className="container text-center">
         <SectionTitle>Achievements</SectionTitle>
-
-        {achievements.map((achievement) => {
-          return (
-            <AchievementShortItem
-              key={achievement.id}
-              number={achievement.number}
-              description={achievement.text}
-            />
-          );
-        })}
+        <div className="flex flex-row flex-wrap justify-evenly items-stretch">
+          {achievements.map((achievement) => {
+            return (
+              <AchievementShortItem
+                key={achievement.id}
+                number={achievement.number}
+                description={achievement.text}
+                borderColor={achievement.color}
+              />
+            );
+          })}
+        </div>
       </section>
 
       <section id="athletic_highlights" className="container text-center">
@@ -53,7 +55,7 @@ const AchievementsDisplay = (props) => {
       <section id="all_races" className="container text-center">
         <SectionTitle>All races</SectionTitle>
         <div>
-          <table className="overflow-scroll">
+          <table>
             <thead>
               {/* <th>Id</th> */}
               <th>Race name</th>
@@ -77,9 +79,9 @@ const AchievementsDisplay = (props) => {
                     <td>{`${race.date.getDate()}/${
                       race.date.getMonth() + 1
                     }/${race.date.getFullYear()}`}</td>
-                    <td className="text-center">{race.rankGeneral}</td>
-                    <td className="text-center">{race.rankAgeGroup}</td>
-                    <td className="text-center">
+                    <td className="centered-cell">{race.rankGeneral}</td>
+                    <td className="centered-cell">{race.rankAgeGroup}</td>
+                    <td className="centered-cell">
                       {race.link ? (
                         <a
                           className="cursor-pointer transition ease-out hover:text-secondary-normal "
