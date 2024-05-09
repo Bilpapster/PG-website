@@ -5,6 +5,7 @@ import Footer from "../components/Footer/Footer";
 import DesignHighlights from "../components/Main/Design/DrawingHighlights";
 import SectionTitle from "../components/UI/SectionTitle";
 import FreelancingPortraits from "../components/Main/Design/FreelancingPortraits";
+import GraphicDesigns from "../components/Main/Design/GraphicDesigns";
 
 const DesignsPage = (props) => {
   return (
@@ -15,6 +16,8 @@ const DesignsPage = (props) => {
         <DesignHighlights />
         <SectionTitle>Freelancing Portraits</SectionTitle>
         <FreelancingPortraits />
+        <SectionTitle>Graphic Designs</SectionTitle>
+        <GraphicDesigns />
       </div>
       <Footer />
     </div>

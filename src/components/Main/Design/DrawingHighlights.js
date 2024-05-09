@@ -10,7 +10,7 @@ const DrawingHighlights = (props) => {
         .map((portrait) => {
           return (
             <div className="text-center w-fit pb-6">
-              <div className="block lg:hidden pt-6 ">
+              <div className="block lg:hidden">
                 {parse(portrait.description)}
               </div>
               <div className="portrait-design-row">

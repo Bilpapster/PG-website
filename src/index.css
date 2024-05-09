@@ -80,6 +80,7 @@ section {
   first:mt-6 
   /* mb-16  */
   pb-16
+  last:pb-0
   ;
 }
 
@@ -355,6 +356,10 @@ tr{
 
 .portrait-design-row .design-description:nth-child(even) {
   @apply lg:hidden;
+}
+
+.graphic-design-container {
+  @apply max-w-72 pr-4 pb-4 last:pr-0;
 }
 
 .separator {
